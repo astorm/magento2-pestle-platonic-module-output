@@ -31,7 +31,7 @@ If you want to install the sample module from this repository into your Magento 
 
 What you're doing above is adding this GitHub repository as a Composer VCS repository.  This tells composer to look for packages here as well as packagist (and any other repository configured in `repositories`).  Once you've done that, you can add `"pulsestorm/pulsestorm-pestleform":"1.0.0"` to your require list and Magento will find and install the package to `vendor`.  
 
-The `autoload` section of this project's `comopser.json` (not your `composer.json`) ensures Magento loads the `registration.php` file, and that PSR-4 autoloading is setup correctly.  
+The `autoload` section of this project's `composer.json` (not your `composer.json`) ensures Magento loads the `registration.php` file, and that PSR-4 autoloading is setup correctly.  
 
 Generating the Sample Module
 --------------------------------------------------
