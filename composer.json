@@ -6,7 +6,7 @@
     "require": {},
     "autoload": {
         "files": [
-            "registration.php"
+            "app/code/Pulsestorm/Pestleform/registration.php"
         ],
         "psr-4": {
             "Pulsestorm\\Pestleform\\": "app/code/Pulsestorm/Pestleform"
