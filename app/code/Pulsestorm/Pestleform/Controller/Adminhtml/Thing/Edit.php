@@ -1,5 +1,5 @@
 <?php
-namespace Pulsestorm\Pestleform\Controller\Adminhtml\Index;
+namespace Pulsestorm\Pestleform\Controller\Adminhtml\Thing;
 
 class Edit extends \Magento\Backend\App\Action
 {

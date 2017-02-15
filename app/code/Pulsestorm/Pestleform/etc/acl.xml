@@ -3,7 +3,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Pulsestorm_Pestleform::things" title="Access to Things"/>
+                <resource id="Pulsestorm_Pestleform::things" title="TITLE HERE FOR"/>
             </resource>
         </resources>
     </acl>

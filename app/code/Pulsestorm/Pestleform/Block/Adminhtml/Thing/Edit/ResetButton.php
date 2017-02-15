@@ -5,6 +5,7 @@ class ResetButton extends GenericButton implements ButtonProviderInterface
 {     
     public function getButtonData()
     {
+        
         return [
             'label' => __('Reset'),
             'class' => 'reset',

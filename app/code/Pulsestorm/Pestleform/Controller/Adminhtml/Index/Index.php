@@ -17,7 +17,7 @@ class Index extends \Magento\Backend\App\Action
     }    
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Pulsestorm_Pestleform::things');
+        return $this->_authorization->isAllowed('ACL RULE HERE');
     }            
         
 }

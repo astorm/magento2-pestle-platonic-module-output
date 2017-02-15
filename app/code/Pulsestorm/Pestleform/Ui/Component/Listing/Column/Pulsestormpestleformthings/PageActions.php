@@ -15,7 +15,7 @@ class PageActions extends \Magento\Ui\Component\Listing\Columns\Column
                 }
                 $item[$name]["view"] = [
                     "href"=>$this->getContext()->getUrl(
-                        "pulsestorm_pestleform_things/index/edit",["pulsestorm_pestleform_thing_id"=>$id]),
+                        "pulsestorm_pestleform_things/thing/edit",["pulsestorm_pestleform_thing_id"=>$id]),
                     "label"=>__("Edit")
                 ];
             }

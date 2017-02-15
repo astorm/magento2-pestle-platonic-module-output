@@ -5,6 +5,7 @@ class DeleteButton extends GenericButton implements ButtonProviderInterface
 {     
     public function getButtonData()
     {
+        if(!$this->getObjectId()) { return []; }
         return [
                 'label' => __('Delete Object'),
                 'class' => 'delete',

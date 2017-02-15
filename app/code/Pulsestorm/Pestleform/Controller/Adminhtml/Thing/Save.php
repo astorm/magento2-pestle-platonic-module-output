@@ -1,5 +1,5 @@
 <?php
-namespace Pulsestorm\Pestleform\Controller\Adminhtml\Index;
+namespace Pulsestorm\Pestleform\Controller\Adminhtml\Thing;
 
                 use Magento\Backend\App\Action;
                 use Pulsestorm\Pestleform\Model\Page;
